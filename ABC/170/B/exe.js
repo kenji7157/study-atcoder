@@ -1,5 +1,3 @@
-const { isUndefined } = require("util");
-
 // inputに入力データ全体が入る
 function Main(input) {
   input = input.split("\n");
