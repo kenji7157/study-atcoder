@@ -99,6 +99,8 @@ let Sn = (n * (a[初項] + l[末項])) / 2
   - Math.sqrt([number])
 - 切り上げ
   - Math.ceil([number])
+- 切り上げ
+  - Math.floor([number])
 
 ### String.prototype.trim()
 
@@ -109,6 +111,8 @@ let Sn = (n * (a[初項] + l[末項])) / 2
 
 - 組み込みオブジェクト
 - Number.MAX_SAFE_INTEGER よりも大きな数値を信頼できるものとして表現する方法を提供
+- 数字の後ろに n をつけるだけで BigInt として解釈してくれる
+  - BigInt(100) = 100n
 
 ```js
 const alsoHuge = BigInt(9007199254740991)
