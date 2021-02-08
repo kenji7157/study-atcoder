@@ -101,6 +101,8 @@ let Sn = (n * (a[初項] + l[末項])) / 2
   - Math.ceil([number])
 - 切り上げ
   - Math.floor([number])
+- 円周率
+  - Math.PI
 
 ### String.prototype.trim()
 
