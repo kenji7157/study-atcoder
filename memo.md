@@ -99,7 +99,7 @@ let Sn = (n * (a[初項] + l[末項])) / 2
   - Math.sqrt([number])
 - 切り上げ
   - Math.ceil([number])
-- 切り上げ
+- 切り捨て
   - Math.floor([number])
 - 円周率
   - Math.PI
