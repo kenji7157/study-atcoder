@@ -167,3 +167,12 @@ console.log(result)
 ```js
 let r = s.split('').reverse().join('')
 ```
+
+### 進数変換
+
+- num.toString(k)で数値 num を基数 k で変換できる
+
+```
+let num = 11;
+let value = num.toString(2); // 1011
+```
