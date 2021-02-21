@@ -176,3 +176,9 @@ let r = s.split('').reverse().join('')
 let num = 11;
 let value = num.toString(2); // 1011
 ```
+
+### 同じ文字の繰り返し
+
+```js
+'Yuno'.repeat(3) //=> "YunoYunoYuno"
+```
