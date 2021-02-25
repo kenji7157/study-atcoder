@@ -182,3 +182,19 @@ let value = num.toString(2); // 1011
 ```js
 'Yuno'.repeat(3) //=> "YunoYunoYuno"
 ```
+
+## 文字列の文字コード化
+
+- charCodeAt
+
+```js
+let s = 'A'
+console.log(s.charCodeAt()) // 文字列Aの文字コード(UTF-16)を出力
+```
+
+- fromCharCode
+
+```js
+let s = String.fromCharCode(97)
+console.log(s) // 文字コード97の文字列を出力する
+```
